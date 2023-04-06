@@ -3,6 +3,7 @@ import { Container } from "@react-email/container";
 import { Heading } from "@react-email/heading";
 import { Hr } from "@react-email/hr";
 import { Html } from "@react-email/html";
+import { Img } from "@react-email/img";
 import { Preview } from "@react-email/preview";
 import { Tailwind } from "@react-email/tailwind";
 import { Text } from "@react-email/text";
@@ -20,6 +21,14 @@ const DriveEmailRender = (props) => {
 
                 <Body className="text-black pt-12">
                     <Container className="mx-auto rounded-lg">
+                        <Img
+                            src={`${baseUrl}/russelltransportlogo.png`}
+                            width="100"
+                            height="100"
+                            alt="Russell's Transport Logo"
+                            className="mx-auto"
+                        />
+
                         <Heading className="font-bold">
                             Drive For Us Application
                         </Heading>

@@ -15,37 +15,13 @@ const ContactEmailRender = (props) => {
         <Tailwind>
             <Html lang="en">
                 <Preview>
-                    {`Contact Us email from ${name}`}
+                    {`Contact Us Subject: ${subject}`}
                 </Preview>
                 
                 <Body className="text-black pt-12">
                     <Container className="mx-auto rounded-lg">
                         <Img
-                            src={`${baseUrl}/static/russelltransportlogo.png`}
-                            width="100"
-                            height="100"
-                            alt="Russell's Transport Logo"
-                            className="mx-auto"
-                        />
-
-                        <Img
                             src={`${baseUrl}/russelltransportlogo.png`}
-                            width="100"
-                            height="100"
-                            alt="Russell's Transport Logo"
-                            className="mx-auto"
-                        />
-
-                        <Img
-                            src={`${baseUrl}/${logo}`}
-                            width="100"
-                            height="100"
-                            alt="Russell's Transport Logo"
-                            className="mx-auto"
-                        />
-
-                        <Img
-                            src='https://www.russellstransportllc.com/_next/image?url=%2Fimages%2Frusselltransportlogo.png&w=256&q=75'
                             width="100"
                             height="100"
                             alt="Russell's Transport Logo"
