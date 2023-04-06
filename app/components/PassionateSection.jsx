@@ -5,7 +5,7 @@ const PassionateSection = () => {
         <div className="px-3 m-auto w-full lg:w-2/5">
 
         <h3 className={`${PassionFont.className} text-5xl`}>
-            Russell's Transport, LLC is passionate about efficiently & effectively picking up and delivering freight for our customers.
+            Russell&apos;s Transport, LLC is passionate about efficiently & effectively picking up and delivering freight for our customers.
         </h3>
 
         <p className="pr-12 py-7 text-lg">

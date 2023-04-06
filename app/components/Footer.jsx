@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="flex flex-col sm:flex-row text-center bg-neutral-500 text-xs uppercase p-5">
             <div>
                 <p>
-                    &copy; {new Date().getFullYear()} Russell's Transport, LLC
+                    &copy; {new Date().getFullYear()} Russell&apos;s Transport, LLC
                 </p>
                 
             </div>

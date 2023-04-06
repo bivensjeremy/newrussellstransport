@@ -7,7 +7,7 @@ const Splash = () => {
             <div className="flex flex-col justify-center text-center container m-auto h-3/4 relative">
                 <div className={PassionFont.className}>
                     <h1 className="text-6xl lg:text-8xl uppercase justify-center my-5 metallicCSS">
-                        Russell's Transport, LLC
+                        Russell&apos;s Transport, LLC
                     </h1>
                 </div>
 
