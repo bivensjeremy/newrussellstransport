@@ -1,7 +1,7 @@
 import nodemailer from "nodemailer"
 
-const USER = process.env.NEXT_PUBLIC_USER
-const PASSWORD = process.env.NEXT_PUBLIC_PASS
+const USER = process.env.SENDEREMAIL
+const PASSWORD = process.env.AUTHORIZATION
 
 export const transporter = nodemailer.createTransport({
     host: "mail.privateemail.com",

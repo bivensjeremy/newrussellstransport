@@ -9,7 +9,7 @@ const ApplicationPersonalInfo = () => {
                 </h2>
                 <hr className="mb-1 p-0.5 rounded-full bg-[#252525]" />
             
-                <div className="grid grid-cols-2 md:gap-2 pb-3">
+                <div className="grid grid-cols-2 gap-2 pb-3">
                     <InputField label="firstName" placeholder="First Name" />
                     <InputField label="lastName" placeholder="Last Name" />
                 </div>
@@ -20,11 +20,11 @@ const ApplicationPersonalInfo = () => {
                     Address Information
                 </h2>
             
-                <div className="grid grid-cols-1 md:gap-2">
+                <div className="grid grid-cols-1 gap-2">
                     <InputField label="street" placeholder="Street Address" />
                 </div>
 
-                <div className="grid grid-cols-3 md:gap-2">
+                <div className="grid grid-cols-3 gap-2">
                     <InputField label="city" placeholder="City" />
                     <InputField label="state" placeholder="State" />
                     <InputField label="zip" placeholder="Zip Code" />
@@ -36,7 +36,7 @@ const ApplicationPersonalInfo = () => {
                     Contact Information
                 </h2>
                 
-                <div className="grid grid-cols-2 md:gap-2">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     <InputField label="phoneNumber" placeholder="Phone Number" />
                     <InputField label="secondaryPhoneNumber" placeholder="Secondary Phone Number" />
                 </div>

@@ -12,7 +12,7 @@ const GetInTouch = () => {
                         Get In Touch With Us
                     </h3>
 
-                    <NavLink className="buttonTwoCSS" href="/products/enrollment">
+                    <NavLink className="buttonTwoCSS" href="/contactus">
                         Contact Us
                     </NavLink>
 

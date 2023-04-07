@@ -3,7 +3,7 @@ import { PassionFont } from "../fonts";
 const Mission = () => {
     return (
         <div className="w-96 md:w-2/3 mx-auto text-center">
-            <h1 className={`${PassionFont.className} text-6xl py-7`} >
+            <h1 className={`${PassionFont.className} text-6xl`} >
                 Our Mission
             </h1>
             

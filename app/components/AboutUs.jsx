@@ -10,6 +10,7 @@ const AboutUs = () => {
                     src={theRussells}
                     alt="Russell's Image"
                     priority={true}
+                    placeholder="blur"
                     sizes="50vw"
                     className="object-cover rounded-lg m-auto w-96"
                 />

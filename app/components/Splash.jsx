@@ -12,11 +12,11 @@ const Splash = () => {
                 </div>
 
                 <div className="flex flex-row mx-auto space-x-6">
-                    <NavLink className="buttonOneCSS" href="/products/enrollment">
+                    <NavLink className="buttonOneCSS" href="/requestdispatchservice">
                         Request Service
                     </NavLink>
 
-                    <NavLink className="buttonTwoCSS" href="/products/enrollment">
+                    <NavLink className="buttonTwoCSS" href="/driveforus">
                         Drive For Us
                     </NavLink>
                 </div>

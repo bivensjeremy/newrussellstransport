@@ -12,8 +12,8 @@ const WhatYouNeed = ({ props, title }) => {
                 <div className="w-full lg:w-3/5 m-auto text-start">
                     {props.map((point) => (
                         <ul key={point}>
-                            <li className="gap-2 text-xl flex">
-                                <CheckSquare /> {point}
+                            <li className="gap-2 text-lg flex flex-row">
+                                <CheckSquare size={20} /> {point}
                             </li>
                         </ul>
                     ))}

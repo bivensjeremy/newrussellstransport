@@ -9,7 +9,7 @@ const HandleAnythingCard = ({id, image, description}) => {
                         src={image}
                         alt="Background image"
                         fill={true}
-                        sizes="25vw"
+                        sizes="(max-width: 768px) 50vw, (max-width: 1200px) 20vw, 25vw"
                         className="object-cover rounded-3xl"
                     />
                 </div>

@@ -9,7 +9,7 @@ const DriveForUsSection = () => {
 
             <p className="pr-12 py-7 text-lg">If you need your freight moved in a timely and efficient manner, call us today for a freight quote. Additionally, if you are looking to join our trucking team located in the Southeast Region, we would love for you to fill out our online interest application.</p>
 
-            <NavLink className="buttonTwoCSS" href="/">
+            <NavLink className="buttonTwoCSS" href="/driveforus">
                 Driver Application
             </NavLink>
         </div>

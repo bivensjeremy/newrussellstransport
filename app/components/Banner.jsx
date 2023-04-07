@@ -8,6 +8,7 @@ const Banner = ({ image, title }) => {
             <Image
                 src={image}
                 priority
+                placeholder="blur"
                 sizes="100vw"
                 alt="Truck Banner Image"
                 className="object-cover top-0 left-0 fixed z-[-1] h-[350px] w-full opacity-60"

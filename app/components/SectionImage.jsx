@@ -6,7 +6,7 @@ const SectionImage = ({ image }) => {
             <Image
                 src={image}
                 alt="Section Descriptor Image"
-                sizes="60vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-center w-full "
             />
         </div>

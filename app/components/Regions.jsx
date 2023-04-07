@@ -3,7 +3,7 @@ import regions from "../../public/transport/states_southeast.png"
 const Regions = () => {
     return (
         <div className="">
-            <div className="relative bg-neutral-900 h-[600px] m-auto flex">
+            <div className="relative bg-neutral-900 h-[600px] m-auto flex py-3">
                 <Image 
                     src={regions}
                     alt="Background image"
